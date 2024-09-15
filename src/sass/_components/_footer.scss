@@ -1,0 +1,934 @@
+#insta{
+    display: block;
+    margin: 4rem 0;
+    
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+
+.O3{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    top: 1rem;
+    left: 2rem;
+
+    &-1{
+        position: absolute;
+        top: 1.4rem;
+        left: 0.5rem;
+        width: 2.1rem;
+        height: 1px;
+        background-color: $white;
+
+    }
+
+    &-2{
+        position: absolute;
+        top: 1.4rem;
+        left: 0.5rem;
+        width: 2.1rem;
+        height: 1px;
+        transform: rotate(90deg);
+        background-color: $white;
+    }
+
+}
+
+.O3C{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    top: 1rem;
+    left: 2rem;
+
+    &-1{
+        position: absolute;
+        top: 1.4rem;
+        left: 0.5rem;
+        width: 2.1rem;
+        height: 1px;
+        background-color: $white;
+
+    }
+
+    &-2{
+        position: absolute;
+        top: 1.4rem;
+        left: 0.5rem;
+        width: 2.1rem;
+        height: 1px;
+        transform: rotate(90deg);
+        background-color: $white;
+    }
+
+}
+.O3R{
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    top: 1rem;
+    left: 2rem;
+
+    &-1{
+        position: absolute;
+        top: 1.4rem;
+        left: 0.5rem;
+        width: 2.1rem;
+        height: 1px;
+        background-color: $white;
+
+    }
+
+    &-2{
+        position: absolute;
+        top: 1.4rem;
+        left: 0.5rem;
+        width: 2.1rem;
+        height: 1px;
+        transform: rotate(90deg);
+        background-color: $white;
+    }
+
+}
+
+.footer{
+    top: 150vh;
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:transparent ;
+
+
+    &__title{
+        font-size: $mobile-H2-s;
+        font-family: $title-family;
+        color: $white;
+        font-weight: 800;
+        margin-bottom: 2rem;
+    }
+
+    &__text{
+        font-size: $mobile-p;
+        font-family: $text-family;
+        color: $white;
+        font-weight: 300;
+    }
+
+    &__input{
+        width: 100%;
+        font-size:$mobile-H3-s;
+        font-family: $text-family;
+        color: $negativ-black;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        transition: all 0.2s;
+        border-bottom: 1px solid $negativ-black;
+
+        &:focus{
+            cursor: pointer;
+            color: $white;
+            border-bottom: 1px solid $white;
+        }
+    }
+
+
+    &__boxOne{
+        width: 100%;
+        &-newsletter{
+            padding-top: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 2rem;
+            padding-bottom: 10rem;
+            border-top: 1px solid $negativ-black;
+
+            &-form{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap: 2rem;
+
+                &-label{
+                    font-size: $mobile-H3-s;
+                    font-family: $text-family;
+                    color: $white;
+                    font-weight: 500;
+                }
+
+                &-btn{
+                    font-size: $mobile-H5-s;
+                    font-family: $title-family;
+                    color: $white;
+                    font-weight: 800;
+                    background-color: transparent;
+                    border: none;
+                    padding: 0;
+                    transition: all 0.2s;
+
+                    &:hover{
+                        cursor: pointer;
+                        color: $negativ-black;
+                    }
+                }
+            }
+        }
+
+        &-opening{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 2rem;
+            border-top:1px solid $negativ-black;
+            border-bottom:1px solid $negativ-black;
+
+            &-content{
+                display: none;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+        }
+    }
+
+
+    &__boxTwo{
+        width: 100%;
+        &-contact{
+            position: relative;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2rem;
+        flex-direction: column;
+        border-bottom: 1px solid $negativ-black;
+        }
+
+        &-content{
+            display: none;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+
+        &-rezervation{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0 2rem;
+            border-bottom: 1px solid $negativ-black;
+
+            &-content{
+                display: none;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+            }
+        }
+    }
+
+    &__boxThree{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 4rem;
+
+        &-content{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+    }
+
+
+}
+
+.c{
+    color: $negativ-black;
+    transition: all 0.2s;
+
+    &:hover{
+        cursor: pointer;
+        color: $white;
+    }
+}
+
+.footerAbout{
+    top: 110vh;
+    position: relative;
+    
+}
+
+.footerHome{
+    top: 125vh;
+    position: relative;
+}
+
+.footerMenu{
+    top: 40vh;
+    position: relative;
+}
+
+.footerPeople{
+    top: 160vh;
+    position: relative;
+}
+
+.footerPrivate{
+    top: 130vh;
+    position: relative;
+}
+
+.footerStories{
+    top: 160vh;
+    position: relative;
+}
+
+
+
+
+@media (min-width:1024px) {
+    .O3{
+        display: none;
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        top: 1rem;
+        left: 2rem;
+    
+        &-1{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            background-color: $white;
+    
+        }
+    
+        &-2{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            transform: rotate(90deg);
+            background-color: $white;
+        }
+    
+    }
+    
+    .O3C{
+        display: none;
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        top: 1rem;
+        left: 2rem;
+    
+        &-1{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            background-color: $white;
+    
+        }
+    
+        &-2{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            transform: rotate(90deg);
+            background-color: $white;
+        }
+    
+    }
+    .O3R{
+        display: none;
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        top: 1rem;
+        left: 2rem;
+    
+        &-1{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            background-color: $white;
+    
+        }
+    
+        &-2{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            transform: rotate(90deg);
+            background-color: $white;
+        }
+    
+    }
+    
+    .footer{
+        position: relative;
+        top: 225vh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: transparent;
+        gap: 4rem;
+        padding-bottom: 10rem;
+    
+    
+        &__title{
+            font-size: $mobile-H2-s;
+            font-family: $title-family;
+            color: $white;
+            font-weight: 800;
+            margin-bottom: 2rem;
+        }
+    
+        &__text{
+            font-size: $mobile-p;
+            font-family: $text-family;
+            color: $white;
+            font-weight: 300;
+        }
+    
+        &__input{
+            width: 100%;
+            font-size:$mobile-H3-s;
+            font-family: $text-family;
+            color: $negativ-black;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            transition: all 0.2s;
+            border-bottom: 1px solid $negativ-black;
+    
+            &:focus{
+                cursor: pointer;
+                color: $white;
+                border-bottom: 1px solid $white;
+            }
+        }
+    
+    
+        &__boxOne{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 2rem;
+            &-newsletter{
+                padding-top: 2rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 0 2rem;
+                padding-bottom: 10rem;
+                border: none;
+    
+                &-form{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 2rem;
+    
+                    &-label{
+                        font-size: $mobile-H3-s;
+                        font-family: $text-family;
+                        color: $white;
+                        font-weight: 500;
+                    }
+    
+                    &-btn{
+                        font-size: $mobile-H5-s;
+                        font-family: $title-family;
+                        color: $white;
+                        font-weight: 800;
+                        background-color: transparent;
+                        border: none;
+                        padding: 0;
+                        transition: all 0.2s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: $negativ-black;
+                        }
+                    }
+                }
+            }
+    
+            &-opening{
+                width: 50%;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 2rem;
+                border: none;
+               
+    
+                &-content{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+            }
+        }
+    
+    
+        &__boxTwo{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 2rem;
+
+            &-contact{
+                width: 75%;
+                position: relative;
+                display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 2rem;
+            flex-direction: column;
+            border: none;
+            
+            }
+    
+            &-content{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+    
+            }
+    
+    
+            &-rezervation{
+                width: 30%;
+                position: relative;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 2rem;
+                border: none;
+    
+                &-content{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+    
+                }
+            }
+        }
+    
+        &__boxThree{
+            bottom: -4rem;
+            position: absolute;
+            margin: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 3rem;
+    
+            &-content{
+                display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            }
+        }
+    
+    
+    }
+
+    .footerAbout{
+        top: 125vh;
+        position: relative;
+        
+    }
+    
+    .footerHome{
+        top: 130vh;
+        position: relative;
+    }
+    
+    .footerMenu{
+        top: 40vh;
+        position: relative;
+    }
+    
+    .footerPeople{
+        top: 230vh;
+        position: relative;
+    }
+    
+    .footerPrivate{
+        top: 140vh;
+        position: relative;
+    }
+    
+    .footerStories{
+        top: 140vh;
+        position: relative;
+    }
+    
+    
+}
+
+
+@media (min-width:630px) and (max-width:1024px) {
+    .O3{
+        display: none;
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        top: 1rem;
+        left: 2rem;
+    
+        &-1{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            background-color: $white;
+    
+        }
+    
+        &-2{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            transform: rotate(90deg);
+            background-color: $white;
+        }
+    
+    }
+    
+    .O3C{
+        display: none;
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        top: 1rem;
+        left: 2rem;
+    
+        &-1{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            background-color: $white;
+    
+        }
+    
+        &-2{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            transform: rotate(90deg);
+            background-color: $white;
+        }
+    
+    }
+    .O3R{
+        display: none;
+        position: absolute;
+        width: 3rem;
+        height: 3rem;
+        background-color: transparent;
+        top: 1rem;
+        left: 2rem;
+    
+        &-1{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            background-color: $white;
+    
+        }
+    
+        &-2{
+            position: absolute;
+            top: 1.4rem;
+            left: 0.5rem;
+            width: 2.1rem;
+            height: 1px;
+            transform: rotate(90deg);
+            background-color: $white;
+        }
+    
+    }
+    
+    .footer{
+        position: relative;
+        top: 150vh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: transparent;
+    
+    
+        &__title{
+            font-size: $mobile-H2-s;
+            font-family: $title-family;
+            color: $white;
+            font-weight: 800;
+            margin-bottom: 2rem;
+        }
+    
+        &__text{
+            font-size: $mobile-p;
+            font-family: $text-family;
+            color: $white;
+            font-weight: 300;
+        }
+    
+        &__input{
+            width: 100%;
+            font-size:$mobile-H3-s;
+            font-family: $text-family;
+            color: $negativ-black;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            transition: all 0.2s;
+            border-bottom: 1px solid $negativ-black;
+    
+            &:focus{
+                cursor: pointer;
+                color: $white;
+                border-bottom: 1px solid $white;
+            }
+        }
+    
+    
+        &__boxOne{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 2rem;
+            &-newsletter{
+                padding-top: 2rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 0 2rem;
+                padding-bottom: 10rem;
+                border: none;
+    
+                &-form{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    gap: 2rem;
+    
+                    &-label{
+                        font-size: $mobile-H3-s;
+                        font-family: $text-family;
+                        color: $white;
+                        font-weight: 500;
+                    }
+    
+                    &-btn{
+                        font-size: $mobile-H5-s;
+                        font-family: $title-family;
+                        color: $white;
+                        font-weight: 800;
+                        background-color: transparent;
+                        border: none;
+                        padding: 0;
+                        transition: all 0.2s;
+    
+                        &:hover{
+                            cursor: pointer;
+                            color: $negativ-black;
+                        }
+                    }
+                }
+            }
+    
+            &-opening{
+                width: 50%;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 2rem;
+                border: none;
+               
+    
+                &-content{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+            }
+        }
+    
+    
+        &__boxTwo{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 2rem;
+
+            &-contact{
+                width: 75%;
+                position: relative;
+                display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 2rem;
+            flex-direction: column;
+            border: none;
+            
+            }
+    
+            &-content{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+    
+            }
+    
+    
+            &-rezervation{
+                width: 50%;
+                position: relative;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                margin: 2rem;
+                border: none;
+    
+                &-content{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+    
+                }
+            }
+        }
+    
+        &__boxThree{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 3rem;
+            margin-bottom: 4rem;
+    
+            &-content{
+                display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            }
+        }
+    
+    
+    }
+
+    .footerAbout{
+        top: 125vh;
+        position: relative;
+        
+    }
+    
+    .footerHome{
+        top: 130vh;
+        position: relative;
+    }
+    
+    .footerMenu{
+        top: 40vh;
+        position: relative;
+    }
+    
+    .footerPeople{
+        top: 160vh;
+        position: relative;
+    }
+    
+    .footerPrivate{
+        top: 135vh;
+        position: relative;
+    }
+    
+    .footerStories{
+        top: 150vh;
+        position: relative;
+    }
+    
+
+}
+

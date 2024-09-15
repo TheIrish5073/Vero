@@ -1,0 +1,501 @@
+.bar-one{
+    bottom: 1rem;
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: $negativ-white;
+    rotate: 180deg;
+    transform-origin: bottom;
+}
+
+.bar-two{
+    bottom: 1rem;
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: $negativ-white;
+    rotate: 180deg;
+    transform-origin: bottom;
+}
+
+.bar-three{
+    bottom: -2rem;
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: $negativ-white;
+    rotate: 180deg;
+    transform-origin: bottom;
+}
+
+.bar-four{
+    bottom: -2rem;
+    position: absolute;
+    width: 1px;
+    height: 0px;
+    background-color: $negativ-white;
+    rotate: 180deg;
+    transform-origin: bottom;
+}
+
+
+
+.about{
+    &__title{
+        max-width: 24ch;
+        font-size: $mobile-H2-s;
+        font-family: $title-family;
+        color: $white;
+        font-weight: 900;
+    }
+
+    &__text{
+        max-width: 36ch;
+        color: $white;
+        font-size: $mobile-H5-s;
+        font-weight: 400;
+    }
+
+    &__img{
+        width: 80%;
+        max-height: 60%;
+    }
+
+
+    &__one{
+        position: relative;
+        top: 20vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+
+        &-content{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+            
+        }
+    }
+
+    &__two{
+        position: relative;
+        top: 35vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+
+        &-content{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1rem;
+        }
+    }
+
+
+    &__three{
+        position: relative;
+        top: 50vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;}
+
+    &__four{
+        position: relative;
+        top: 70vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;}
+    
+    &__five{
+        position: relative;
+        top: 90vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+
+        &-btn{
+            font-family: $title-family;
+            font-size: $mobile-H4-s;
+            font-weight: 600;
+            color: $white;
+            background-color: transparent;
+            border: 1px solid $white;
+            padding: 1rem 2rem;
+            transition: all 0.2s;
+
+            &:hover{
+                color: $accent-color;
+                background-color: $white;
+            }
+        }
+    }
+    
+
+}
+
+@media (min-width:940px) {
+    .bar-one{
+        bottom: -5.5rem;
+        position: absolute;
+        width: 1px;
+        height: 0px;
+        background-color: $negativ-white;
+        rotate: 180deg;
+        transform-origin: bottom;
+    }
+    
+    .bar-two{
+        bottom: -5.5rem;
+        position: absolute;
+        width: 1px;
+        height: 0px;
+        background-color: $negativ-white;
+        rotate: 180deg;
+        transform-origin: bottom;
+    }
+    
+    .bar-three{
+        bottom: -2.5rem;
+        position: absolute;
+        width: 1px;
+        height: 0px;
+        background-color: $negativ-white;
+        rotate: 180deg;
+        transform-origin: bottom;
+    }
+    
+    .bar-four{
+        bottom: -2.5rem;
+        position: absolute;
+        width: 1px;
+        height: 0px;
+        background-color: $negativ-white;
+        rotate: 180deg;
+        transform-origin: bottom;
+    }
+    
+    
+    
+    
+    .about{
+        &__title{
+            max-width: 24ch;
+            font-size: $mobile-H2-s;
+            font-family: $title-family;
+            color: $white;
+            font-weight: 900;
+        }
+    
+        &__text{
+            max-width: 36ch;
+            color: $white;
+            font-size: $mobile-H5-s;
+            font-weight: 400;
+        }
+    
+        &__img{
+            order: 0;
+            width: 40%;
+            height: 90vh;
+        }
+    
+    
+        &__one{
+            position: relative;
+            top: 20vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 4rem;
+    
+            &-content{
+                text-align: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1rem;
+                
+            }
+        }
+    
+        &__two{
+            position: relative;
+            top: 45vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 4rem;
+    
+            &-content{
+                order: -1;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1rem;
+            }
+        }
+    
+    
+        &__three{
+            position: relative;
+            top: 70vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 4rem;}
+    
+        &__four{
+            position: relative;
+            top: 90vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            text-align: center;
+            gap: 4rem;}
+        
+        &__five{
+            position: relative;
+            top: 110vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 4rem;
+    
+            &-btn{
+                font-family: $title-family;
+                font-size: $mobile-H4-s;
+                font-weight: 600;
+                color: $white;
+                background-color: transparent;
+                border: 1px solid $white;
+                padding: 1rem 2rem;
+                transition: all 0.2s;
+    
+                &:hover{
+                    color: $accent-color;
+                    background-color: $white;
+                }
+            }
+        }
+        
+    
+    }
+    
+}
+
+
+@media (min-width:760px) and (max-width:940px){
+    .bar-one{
+        bottom: -5.5rem;
+        position: absolute;
+        width: 1px;
+        height: 0px;
+        background-color: $negativ-white;
+        rotate: 180deg;
+        transform-origin: bottom;
+    }
+    
+    .bar-two{
+        bottom: -5.5rem;
+        position: absolute;
+        width: 1px;
+        height: 0px;
+        background-color: $negativ-white;
+        rotate: 180deg;
+        transform-origin: bottom;
+    }
+    
+    .bar-three{
+        bottom: -2.5rem;
+        position: absolute;
+        width: 1px;
+        height: 0px;
+        background-color: $negativ-white;
+        rotate: 180deg;
+        transform-origin: bottom;
+    }
+    
+    .bar-four{
+        bottom: -2.5rem;
+        position: absolute;
+        width: 1px;
+        height: 0px;
+        background-color: $negativ-white;
+        rotate: 180deg;
+        transform-origin: bottom;
+    }
+    
+    
+    
+    
+    .about{
+        &__title{
+            max-width: 24ch;
+            font-size: $mobile-H2-s;
+            font-family: $title-family;
+            color: $white;
+            font-weight: 900;
+        }
+    
+        &__text{
+            max-width: 36ch;
+            color: $white;
+            font-size: $mobile-H5-s;
+            font-weight: 400;
+        }
+    
+        &__img{
+            order: 0;
+            width: 40%;
+            height: 50vh;
+        }
+    
+    
+        &__one{
+            position: relative;
+            top: 20vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 4rem;
+    
+            &-content{
+                text-align: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1rem;
+                
+            }
+        }
+    
+        &__two{
+            position: relative;
+            top: 45vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 4rem;
+    
+            &-content{
+                order: -1;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                gap: 1rem;
+            }
+        }
+    
+    
+        &__three{
+            position: relative;
+            top: 70vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 4rem;}
+    
+        &__four{
+            position: relative;
+            top: 90vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            text-align: center;
+            gap: 4rem;}
+        
+        &__five{
+            position: relative;
+            top: 110vh;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            gap: 4rem;
+    
+            &-btn{
+                font-family: $title-family;
+                font-size: $mobile-H4-s;
+                font-weight: 600;
+                color: $white;
+                background-color: transparent;
+                border: 1px solid $white;
+                padding: 1rem 2rem;
+                transition: all 0.2s;
+    
+                &:hover{
+                    color: $accent-color;
+                    background-color: $white;
+                }
+            }
+        }
+        
+    
+    }
+    
+}

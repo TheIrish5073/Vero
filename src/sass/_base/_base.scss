@@ -1,0 +1,128 @@
+@import "../_abstracts/variables";
+
+// Global styles
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; // 1rem = 10px for easier rem calculations
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: $text-family;
+    font-size: 1.6rem; // 16px
+    color: $black-icon;
+    background-color: #f5f5f5;
+}
+
+// Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 1rem;
+    font-weight: 600;
+    font-family: $title-family;
+}
+
+h1 {
+    font-size: $desktop-H1;
+}
+
+h2 {
+    font-size: $desktop-H2;
+}
+
+h3 {
+    font-size: $desktop-H3;
+}
+
+h4 {
+    font-size: $desktop-H4;
+}
+
+h5 {
+    font-size: $desktop-H5;
+}
+
+h6 {
+    font-size: $desktop-H6;
+}
+
+p {
+    font-size: $desktop-p;
+    margin: 0 0 1.5rem;
+    line-height: 1.5;
+}
+
+a {
+    color: $accent-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+// Lists
+ul,
+ol {
+    margin: 0 0 1.5rem 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+// Images
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+}
+
+// Forms
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    cursor: pointer;
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+// Tables
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+th,
+td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid $secondary-color;
+}
+
+th {
+    background-color: $secondary-color;
+}

@@ -1,0 +1,17 @@
+@import "./sass/_abstracts/variables";
+@import "./sass/_base/base";
+@import "./sass/_vendors/normalize";
+@import "./sass/_components/nav-bar";
+@import "./sass/_components/footer";
+@import "./sass/_layout/home";
+@import "./sass/_layout/about";
+@import "./sass/_layout/people";
+@import "./sass/_layout/private";
+@import "./sass/_layout/menu";
+@import "./sass/_layout/stories";
+@import "./sass/_components/error";
+body{
+    background-color: $accent-color;
+}
+
+

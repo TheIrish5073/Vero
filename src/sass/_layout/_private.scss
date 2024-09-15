@@ -1,0 +1,486 @@
+
+
+.private{
+    
+    &-btn{
+        width: 0.8rem;
+        height: 0.8rem;
+        background-color: $negativ-black;
+        border: none;
+        border-radius: 100%;
+        margin: 0.5rem;
+        
+    }
+    
+    &__text{
+        font-size: $mobile-H2-s;
+        color: $white;
+        font-family: $text-family;
+        max-width: 26ch;
+        text-align: center;
+    }
+    
+    &__one{
+        top: 30vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+    }
+    
+    &__two{
+        top: 50vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+        
+        &-video{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+    
+    &__three{
+        top: 70vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+    }
+    
+    &__four{
+        top: 90vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 2rem;
+        
+        &-btns{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &-box{
+            position: relative;
+            width: 100%;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            overflow: hidden;
+
+            &-img{
+                width: 50vw;
+                height: 25vh;
+                object-fit: cover;
+                object-position: center;
+                overflow: hidden;
+            }
+
+            &-left{
+                position: absolute;
+                color: $negativ-black;
+                font-size: 8rem;
+                font-weight: 1;
+                top: -10%;
+                right: 0;
+
+                transition: all 0.2s;
+
+                &:hover{
+                    cursor: pointer;
+                    color: whitesmoke;
+                    text-shadow: inset 0 0 3px rgba(0, 0, 0, 0.8);
+                }
+            }
+            &-right{
+                position: absolute;
+                color: $negativ-black;
+                font-size: 8rem;
+                font-weight: 1;
+                top: -10%;
+                left: 0;
+                transition: all 0.2s;
+
+                &:hover{
+                    cursor: pointer;
+                    color: whitesmoke;
+                    text-shadow: inset 0 0 3px rgba(0, 0, 0, 0.8);
+                }
+            }
+        }
+
+        
+        
+    }
+    
+    &__five{
+        top: 110vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        &-btn{
+            padding: 1rem 3rem;
+            background-color: transparent;
+            color: $white;
+            font-size: $mobile-H4-s;
+            font-family: $title-family;
+            border: 1px solid $white;
+            font-weight: 900;
+            transition: all 0.2s;
+            
+            &:hover{
+                background-color: $white;
+                color: $negativ-black;
+            }
+        }
+
+
+        
+    }
+    .active{
+        background-color: $white;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .private{
+    
+        &-btn{
+            width: 0.8rem;
+            height: 0.8rem;
+            background-color: $negativ-black;
+            border: none;
+            border-radius: 100%;
+            margin: 0.5rem;
+            
+        }
+        
+        &__text{
+            font-size: $mobile-H2-s;
+            color: $white;
+            font-family: $text-family;
+            max-width: 26ch;
+            text-align: center;
+        }
+        
+        &__one{
+            top: 30vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem;
+        }
+        
+        &__two{
+            top: 50vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem;
+            
+            &-video{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+        
+        &__three{
+            top: 70vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem;
+        }
+        
+        &__four{
+            top: 90vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem;
+            
+            &-btns{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            &-box{
+                position: relative;
+                width: 100%;
+                height: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                overflow: hidden;
+    
+                &-img{
+                    width: 50vw;
+                    height: 70vh;
+                    object-fit: cover;
+                    object-position: center;
+                    overflow: hidden;
+                }
+    
+                &-left{
+                    position: absolute;
+                    color: $negativ-black;
+                    font-size: 8rem;
+                    font-weight: 1;
+                    top: 25%;
+                    right: 0;
+    
+                    transition: all 0.2s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: whitesmoke;
+                        text-shadow: inset 0 0 3px rgba(0, 0, 0, 0.8);
+                    }
+                }
+                &-right{
+                    position: absolute;
+                    color: $negativ-black;
+                    font-size: 8rem;
+                    font-weight: 1;
+                    top: 25%;
+                    left: 0;
+                    transition: all 0.2s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: whitesmoke;
+                        text-shadow: inset 0 0 3px rgba(0, 0, 0, 0.8);
+                    }
+                }
+            }
+    
+            
+            
+        }
+        
+        &__five{
+            top: 110vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            &-btn{
+                padding: 1rem 3rem;
+                background-color: transparent;
+                color: $white;
+                font-size: $mobile-H4-s;
+                font-family: $title-family;
+                border: 1px solid $white;
+                font-weight: 900;
+                transition: all 0.2s;
+                
+                &:hover{
+                    background-color: $white;
+                    color: $negativ-black;
+                }
+            }
+    
+    
+            
+        }
+        .active{
+            background-color: $white;
+        }
+    }
+    
+}
+
+
+@media (min-width:760px) and (max-width:1200px){
+    .private{
+    
+        &-btn{
+            width: 0.8rem;
+            height: 0.8rem;
+            background-color: $negativ-black;
+            border: none;
+            border-radius: 100%;
+            margin: 0.5rem;
+            
+        }
+        
+        &__text{
+            font-size: $mobile-H2-s;
+            color: $white;
+            font-family: $text-family;
+            max-width: 26ch;
+            text-align: center;
+        }
+        
+        &__one{
+            top: 30vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem;
+        }
+        
+        &__two{
+            top: 50vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem;
+            
+            &-video{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+        
+        &__three{
+            top: 70vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem;
+        }
+        
+        &__four{
+            top: 90vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 2rem;
+            
+            &-btns{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            &-box{
+                position: relative;
+                width: 100%;
+                height: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                overflow: hidden;
+    
+                &-img{
+                    width: 50vw;
+                    height: 50vh;
+                    object-fit: cover;
+                    object-position: center;
+                    overflow: hidden;
+                }
+    
+                &-left{
+                    position: absolute;
+                    color: $negativ-black;
+                    font-size: 8rem;
+                    font-weight: 1;
+                    top: 15%;
+                    right: 0;
+    
+                    transition: all 0.2s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: whitesmoke;
+                        text-shadow: inset 0 0 3px rgba(0, 0, 0, 0.8);
+                    }
+                }
+                &-right{
+                    position: absolute;
+                    color: $negativ-black;
+                    font-size: 8rem;
+                    font-weight: 1;
+                    top: 15%;
+                    left: 0;
+                    transition: all 0.2s;
+    
+                    &:hover{
+                        cursor: pointer;
+                        color: whitesmoke;
+                        text-shadow: inset 0 0 3px rgba(0, 0, 0, 0.8);
+                    }
+                }
+            }
+    
+            
+            
+        }
+        
+        &__five{
+            top: 110vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            &-btn{
+                padding: 1rem 3rem;
+                background-color: transparent;
+                color: $white;
+                font-size: $mobile-H4-s;
+                font-family: $title-family;
+                border: 1px solid $white;
+                font-weight: 900;
+                transition: all 0.2s;
+                
+                &:hover{
+                    background-color: $white;
+                    color: $negativ-black;
+                }
+            }
+    
+    
+            
+        }
+        .active{
+            background-color: $white;
+        }
+    }
+    
+}
